@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .counter-container {
+      display: inline-block;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .counter {
+      font-size: 24px;
+      margin: 10px;
+      padding: 10px;
+      background-color: #fce4ec;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      display: inline-block;
+      width: 50px;
+      text-align: center;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: 0.8;
+    }
+    .increment {
+      background-color: #4caf50;
+      color: white;
+    }
+    .decrement {
+      background-color: #f44336;
+      color: white;
+    }
+    .reset {
+      background-color: #2196f3;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="counter-container">
+    <h1>Counter App</h1>
+    <button class="increment" onclick="increment()">+</button>
+    <span class="counter" id="counter">0</span>
+    <button class="decrement" onclick="decrement()">-</button>
+    <br />
+    <button class="reset" onclick="resetCounter()">Reset</button>
+  </div>
+
+  <script src="Q28.js">
+    
+  </script>
+</body>
+</html>
